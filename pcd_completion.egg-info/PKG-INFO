@@ -1,8 +1,0 @@
-Metadata-Version: 2.1
-Name: pcd-completion
-Version: 1.0.0
-Summary: This package contains functions useful for ML algorithm use. It creates simple interface between some used AI algorithms.
-Maintainer: Saber Mohammadi
-Maintainer-email: saber.mohammadi1986@gmail.com
-License: GNU GENERAL PUBLIC LICENSE v3
-License-File: LICENSE
