@@ -1,5 +1,8 @@
 # pcd_completion
-Git clone of the repo. 
+Git clone of the repo. And run:
+```
+pip install -e .
+```
 
 Before running the package install the following libraries: 
 ```
@@ -20,4 +23,13 @@ pip install easydict
 pip install timm
 
 pip install open3d
+```
+## USAGE:
+The pretrained model weights for pcd completion are at this link **https://drive.google.com/drive/u/1/folders/1_PlETSxbObabV6OkVX1Tqea8wc4dWNi8**
+```
+from Completion_inf.PCD_completion import PCD_completion
+pcd_in = PATH TO XYZ POINT CLOUD FILE
+model_weights = PATH TO MODEL WEIGHTS
+PCN = PCD_completion(model_weights)
+pcd_out = PCN.comp_inf(pcd_in)
 ```
