@@ -12,7 +12,7 @@ pip install "git+https://github.com/erikwijmans/Pointnet2_PyTorch.git#egg=pointn
 
 pip install --upgrade https://github.com/unlimblue/KNN_CUDA/releases/download/0.2/KNN_CUDA-0.2-py3-none-any.whl 
 
-pip install vedo, Ninja, pyyaml, easydict, timm, open3d
+pip install vedo Ninja pyyaml easydict timm open3d
 ```
 ## USAGE:
 The pretrained model weights for pcd completion are at this link **https://drive.google.com/drive/u/1/folders/1_PlETSxbObabV6OkVX1Tqea8wc4dWNi8**
